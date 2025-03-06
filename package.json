@@ -1,0 +1,35 @@
+{
+  "name": "doomderoid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "nodemon --watch api/src --ext ts --exec \"npm run build && node build/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rossville/doomderoid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Rossville/doomderoid/issues"
+  },
+  "homepage": "https://github.com/Rossville/doomderoid#readme",
+  "dependencies": {
+    "cookie": "^1.0.2",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}

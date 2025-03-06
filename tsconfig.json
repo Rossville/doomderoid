@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "outDir": "./build",
+    "rootDir": "./api/src",
+    "strict": true
+  },
+  "include": ["api/src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
