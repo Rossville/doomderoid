@@ -1,14 +1,17 @@
 {
   "compilerOptions": {
     "target": "ES6",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "CommonJS",
+    "moduleResolution": "node",
     "allowJs": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "outDir": "./build",
-    "rootDir": "./api/src",
-    "strict": true
+    "rootDir": "./api",
+    "strict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false
   },
   "include": ["api/src/**/*.ts"],
   "exclude": ["node_modules"]
